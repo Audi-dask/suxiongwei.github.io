@@ -14,9 +14,12 @@ ul {
     list-style: none;
 }
 .gzwm li {
-    width: 57px;
-    margin: 18px 18px 0 5px;
+    width: 25%;
+    /* margin: 18px 10px 0 5px; */
     float: left;
+    margin: 18px 0 0 0px;
+    /* text-align: center; */
+    padding: 0 0 0 12px;
 }
 .gzwm .xlwb {
     background: url(../images/ico_05_1.jpg) no-repeat scroll 0% 0% transparent;
