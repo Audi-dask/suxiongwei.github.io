@@ -1,11 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/article/quartz.md" line="13" />
+    <bookmark url="file://$PROJECT_DIR$/article/java/quartz.md" line="13" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a360873b-362b-4fea-9b8a-dd84306195ce" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/article/docker/docker.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/article/other/access_token.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/article/other/coding_standards.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/article/other/github_language.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/article/redis/redis.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/article/redis/redis_cache.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/article/spring/config.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/article/spring/eureka.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/article/spring/feign.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/article/spring/micro_service.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/article/spring/ribbon.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/article/spring/springData-jpa.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/article/spring/spring_boot.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/article/spring/spring_session.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/article/spring/transactional.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/article/spring/zuul.md" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/article/quartz.md" afterPath="$PROJECT_DIR$/article/java/quartz.md" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,15 +36,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="72">
-                <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="349" column="85" lean-forward="false" selection-start-line="349" selection-start-column="85" selection-end-line="349" selection-end-column="85" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -48,6 +63,7 @@
       <find>arti</find>
       <find>.tit01 h3</find>
       <find>github</find>
+      <find>mysql</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -63,8 +79,8 @@
       <list>
         <option value="$PROJECT_DIR$/css/index.css" />
         <option value="$PROJECT_DIR$/article/quartz.md" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -75,10 +91,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1060" />
+    <option name="x" value="25" />
+    <option name="y" value="21" />
+    <option name="width" value="438" />
+    <option name="height" value="886" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -107,6 +123,17 @@
               <item name="suxiongwei.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="suxiongwei.github.io" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="suxiongwei.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="suxiongwei.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="article" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="suxiongwei.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="suxiongwei.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="article" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -123,6 +150,13 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\project\suxiongwei.github.io\article\java" />
+      <recent name="E:\project\suxiongwei.github.io\article\spring" />
+      <recent name="E:\project\suxiongwei.github.io\article\redis" />
+      <recent name="E:\project\suxiongwei.github.io\article\other" />
+      <recent name="E:\project\suxiongwei.github.io\article\docker" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\project\blogs\font" />
       <recent name="D:\project\blogs\js" />
@@ -245,12 +279,12 @@
       <updated>1516540689102</updated>
       <workItem from="1516540692820" duration="1771000" />
       <workItem from="1516583325383" duration="5654000" />
-      <workItem from="1516589428928" duration="2787000" />
+      <workItem from="1516589428928" duration="4475000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10212000" />
+    <option name="totallyTimeSpent" value="11900000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
@@ -268,7 +302,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21633238" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21633238" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -299,11 +333,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -325,7 +355,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/article/quartz.md">
+    <entry file="file://$PROJECT_DIR$/article/java/quartz.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SECOND">
           <first_editor relative-caret-position="205">
@@ -357,26 +387,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="287" column="42" lean-forward="false" selection-start-line="287" selection-start-column="42" selection-end-line="287" selection-end-column="42" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="72">
-            <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <first_editor relative-caret-position="126">
+            <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="349" column="85" lean-forward="false" selection-start-line="349" selection-start-column="85" selection-end-line="349" selection-end-column="85" />
+          <folding />
         </state>
       </provider>
     </entry>
