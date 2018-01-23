@@ -1,4 +1,4 @@
-## Java项目中使用log4j和slf4j实现日志记录
+# Java项目中使用log4j和slf4j实现日志记录
 
 ## 什么是log4j？
 >Log4j是Apache的一个开源项目，通过使用Log4j，我们可以控制日志信息输送的目的地是控制台、文件、GUI组件，甚至是套接口服务器、NT的事件记
@@ -8,8 +8,7 @@
 ## 什么是slf4j？
 > SLF4J，即简单日志门面（Simple Logging Facade for Java），不是具体的日志解决方案，它只服务于各种各样的日志系统。按照官方的说法，
 SLF4J是一个用于日志系统的简单Facade，允许最终用户在部署其应用时使用其所希望的日志系统。
-
-## 常用的日志组合:slf4j+logback
+常用的日志组合:slf4j+logback
 
 ## 项目集成(环境:Spring+SpringMVC+Maven)
 - 1、在pom文件中添加依赖
@@ -95,5 +94,6 @@ SLF4J是一个用于日志系统的简单Facade，允许最终用户在部署其
     这点是建议。自己视情况而决定是否打印，我一般建议打印。
 
 ## 参考博客
-[在Java项目中如何使用log4j和slf4j实现日志打印](http://blog.csdn.net/xiao_mengxi/article/details/54910450)    
-[编码习惯之日志建议](http://blog.didispace.com/cxy-wsm-zml-4/)    
+- 1、[在Java项目中如何使用log4j和slf4j实现日志打印](http://blog.csdn.net/xiao_mengxi/article/details/54910450)    
+- 2、[编码习惯之日志建议](http://blog.didispace.com/cxy-wsm-zml-4/)    
+
