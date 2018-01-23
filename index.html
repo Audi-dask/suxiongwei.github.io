@@ -14,9 +14,12 @@
     <link rel="stylesheet" type="text/css" href="animate/animate.min.css">
 </head>
 <body>
-<!-- 顶部导航开始 -->
-<header id="b-public-nav" class="navbar navbar-inverse navbar-fixed-top">
+<!--顶部导航开始-->
+<!--navbar-inverse 设置为黑色-->
+<nav class="navbar navbar-default navbar-fixed-top ">
+    <!--.container-fluid 导航条靠近俩边-->
     <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                 <span class="sr-only">Toggle navigation</span>
@@ -24,53 +27,48 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/" onclick="recordId('/',0)">
-                <div class="hidden-xs b-nav-background"></div>
-                <ul class="b-logo-code">
-                    <li class="b-lc-start"></li>
-                    <li class="b-lc-echo"></li>
-                </ul>
-                <p class="b-logo-word">&nbsp;&nbsp;苏雄伟博客&nbsp;&nbsp;</p>
-                <p class="b-logo-end"></p>
-            </a>
+            <a class="navbar-brand" href="#">苏雄伟博客</a>
         </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav b-nav-parent">
-                <li class="hidden-xs b-nav-mobile"></li>
-                <li class="b-nav-cname   b-nav-active ">
-                    <a href="/">首页</a>
-                </li>
-                <li class="b-nav-cname ">
-                    <a href="https://github.com/suxiongwei/suxiongwei.github.io/blob/master/article/java/list.md" >Java</a>
-                </li>
-                <li class="b-nav-cname ">
-                    <a href="https://github.com/suxiongwei/suxiongwei.github.io/blob/master/article/linux/list.md">Linux</a>
-                </li>
-                <li class="b-nav-cname ">
-                    <a href="https://github.com/suxiongwei/suxiongwei.github.io/blob/master/article/mysql/list.md">Mysql</a>
-                </li>
-                <li class="b-nav-cname ">
-                    <a href="https://github.com/suxiongwei/suxiongwei.github.io/blob/master/article/spring/list.md">Spring</a>
-                </li>
-                <li class="b-nav-cname ">
-                    <a href="https://github.com/suxiongwei/suxiongwei.github.io/blob/master/article/redis/list.md">Redis</a>
-                </li>
-                <li class="b-nav-cname ">
-                    <a href="https://github.com/suxiongwei/suxiongwei.github.io/blob/master/article/other/list.md">other</a>
-                </li>
-                <li class="b-nav-cname hidden-sm  ">
-                    <a href="https://github.com/suxiongwei">开源项目</a>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">首页 <span class="sr-only">(current)</span></a></li>
+                <li><a href="https://github.com/suxiongwei/suxiongwei.github.io/blob/master/article/java/list.md">Java</a></li>
+                <li><a href="https://github.com/suxiongwei/suxiongwei.github.io/blob/master/article/linux/list.md">Linux</a></li>
+                <li><a href="https://github.com/suxiongwei/suxiongwei.github.io/blob/master/article/mysql/list.md">Mysql</a></li>
+                <li><a href="https://github.com/suxiongwei/suxiongwei.github.io/blob/master/article/spring/list.md">Spring</a></li>
+                <li><a href="https://github.com/suxiongwei/suxiongwei.github.io/blob/master/article/redis/list.md">Redis</a></li>
+                <li><a href="#">Java</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Other <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Other</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">One more separated link</a></li>
+                    </ul>
                 </li>
             </ul>
-            <!--<ul id="b-login-word" class="nav navbar-nav navbar-right">-->
-                <!--<li class="b-nav-cname b-nav-login">-->
-                    <!--<div class="hidden-xs b-login-mobile"></div>-->
-                    <!--<a href="javascript:;" onclick="login()">登录</a>-->
-                <!--</li>-->
-            <!--</ul>-->
-        </div>
-    </div>
-</header>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">友情链接</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">开源项目 <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">微服务商城</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
 <!-- 顶部导航结束 -->
 
 <div class="b-h-70"></div>
@@ -338,46 +336,6 @@
                 </div>
                 <a class=" b-readall" href="https://github.com/suxiongwei/suxiongwei.github.io/tree/master/article/linux/tomcat_service.md" target="_blank">阅读全文</a>
             </div>
-
-
-            <!-- 文章列表结束 -->
-
-            <!-- 列表分页开始 -->
-            <!--<div class="row">-->
-                <!--<div class="col-xs-12 col-md-12 col-lg-12 b-page text-center">-->
-                    <!--<ul class="pagination">-->
-
-                        <!--<li><a href="https://baijunyao.com?page=1" rel="prev">上一页</a></li>-->
-
-
-
-
-
-                        <!--<li><a href="https://baijunyao.com?page=1">1</a></li>-->
-                        <!--<li class="active"><span>2</span></li>-->
-                        <!--<li><a href="https://baijunyao.com?page=3">3</a></li>-->
-                        <!--<li><a href="https://baijunyao.com?page=4">4</a></li>-->
-                        <!--<li><a href="https://baijunyao.com?page=5">5</a></li>-->
-                        <!--<li><a href="https://baijunyao.com?page=6">6</a></li>-->
-                        <!--<li><a href="https://baijunyao.com?page=7">7</a></li>-->
-                        <!--<li><a href="https://baijunyao.com?page=8">8</a></li>-->
-
-                        <!--<li class="disabled"><span>...</span></li>-->
-
-
-
-
-
-                        <!--<li><a href="https://baijunyao.com?page=11">11</a></li>-->
-                        <!--<li><a href="https://baijunyao.com?page=12">12</a></li>-->
-
-
-                        <!--<li><a href="https://baijunyao.com?page=3" rel="next">下一页</a></li>-->
-                    <!--</ul>-->
-
-                <!--</div>-->
-            <!--</div>-->
-            <!-- 列表分页结束 -->
         </div>
         <!-- 左侧列表结束 -->
         <!-- 通用右部区域开始 -->
@@ -401,26 +359,6 @@
                         </ul>
                     </div>
                 </div>
-                <!--<h4 class="b-title">加入组织</h4>-->
-                <!--<ul class="b-all-tname">-->
-                    <!--<li class="b-qun-or-code">-->
-                        <!--<img src="https://baijunyao.com/uploads/images/default.png" alt="QQ">-->
-                    <!--</li>-->
-                    <!--<li class="b-qun-word">-->
-                        <!--<p class="b-qun-nuber">-->
-                            <!--1. 手Q扫左侧二维码-->
-                        <!--</p>-->
-                        <!--<p class="b-qun-nuber">-->
-                            <!--2. 搜群：88199093-->
-                        <!--</p>-->
-                        <!--<p class="b-qun-code">-->
-                            <!--3. 点击<a href="//shang.qq.com/wpa/qunwpa?idkey=bba3fea90444ee6caf1fb1366027873fe14e86bada254d41ce67768fadd729ee" target="_blank" rel="nofollow"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="苏雄伟博客群" title="苏雄伟博客群"></a>-->
-                        <!--</p>-->
-                        <!--<p class="b-qun-article">-->
-                            <!--<a href="https://baijunyao.com/article/124" target="_blank">创建QQ群及捐赠渠道</a>-->
-                        <!--</p>-->
-                    <!--</li>-->
-                <!--</ul>-->
             </div>
             <div class="b-tags">
                 <div class="cloud">
@@ -442,101 +380,6 @@
                         <li><a href="https://github.com/suxiongwei/suxiongwei.github.io/blob/master/article/docker/list.md">Docker</a></li>
                     </ul>
                 </div>
-
-
-                <!--<h4 class="b-title">热门标签</h4>-->
-                <!--<ul class="b-all-tname">-->
-                    <!--<li class="b-tname">-->
-                        <!--<a class="tstyle-1" href="https://baijunyao.com/tag/20" onclick="return recordId('tid','20')">Linux (6)</a>-->
-                    <!--</li>-->
-                    <!--<li class="b-tname">-->
-                        <!--<a class="tstyle-2" href="https://baijunyao.com/tag/21" onclick="return recordId('tid','21')">Centos (3)</a>-->
-                    <!--</li>-->
-                    <!--<li class="b-tname">-->
-                        <!--<a class="tstyle-3" href="https://baijunyao.com/tag/22" onclick="return recordId('tid','22')">Apache (4)</a>-->
-                    <!--</li>-->
-                    <!--<li class="b-tname">-->
-                        <!--<a class="tstyle-4" href="https://baijunyao.com/tag/23" onclick="return recordId('tid','23')">虚拟主机 (5)</a>-->
-                    <!--</li>-->
-                    <!--<li class="b-tname">-->
-                        <!--<a class="tstyle-1" href="https://baijunyao.com/tag/24" onclick="return recordId('tid','24')">wamp (3)</a>-->
-                    <!--</li>-->
-                    <!--<li class="b-tname">-->
-                        <!--<a class="tstyle-2" href="https://baijunyao.com/tag/25" onclick="return recordId('tid','25')">励志 (2)</a>-->
-                    <!--</li>-->
-                    <!--<li class="b-tname">-->
-                        <!--<a class="tstyle-3" href="https://baijunyao.com/tag/26" onclick="return recordId('tid','26')">html (13)</a>-->
-                    <!--</li>-->
-                    <!--<li class="b-tname">-->
-                        <!--<a class="tstyle-4" href="https://baijunyao.com/tag/27" onclick="return recordId('tid','27')">函数 (12)</a>-->
-                    <!--</li>-->
-                    <!--<li class="b-tname">-->
-                        <!--<a class="tstyle-1" href="https://baijunyao.com/tag/28" onclick="return recordId('tid','28')">jQuery (3)</a>-->
-                    <!--</li>-->
-                    <!--<li class="b-tname">-->
-                        <!--<a class="tstyle-2" href="https://baijunyao.com/tag/29" onclick="return recordId('tid','29')">css (6)</a>-->
-                    <!--</li>-->
-                    <!--<li class="b-tname">-->
-                        <!--<a class="tstyle-3" href="https://baijunyao.com/tag/30" onclick="return recordId('tid','30')">ueditor (2)</a>-->
-                    <!--</li>-->
-                    <!--<li class="b-tname">-->
-                        <!--<a class="tstyle-4" href="https://baijunyao.com/tag/31" onclick="return recordId('tid','31')">thinkphp (43)</a>-->
-                    <!--</li>-->
-                    <!--<li class="b-tname">-->
-                        <!--<a class="tstyle-1" href="https://baijunyao.com/tag/32" onclick="return recordId('tid','32')">MySQL (5)</a>-->
-                    <!--</li>-->
-                    <!--<li class="b-tname">-->
-                        <!--<a class="tstyle-2" href="https://baijunyao.com/tag/33" onclick="return recordId('tid','33')">php类 (3)</a>-->
-                    <!--</li>-->
-                    <!--<li class="b-tname">-->
-                        <!--<a class="tstyle-3" href="https://baijunyao.com/tag/34" onclick="return recordId('tid','34')">JavaScript (7)</a>-->
-                    <!--</li>-->
-                    <!--<li class="b-tname">-->
-                        <!--<a class="tstyle-4" href="https://baijunyao.com/tag/35" onclick="return recordId('tid','35')">读书 (2)</a>-->
-                    <!--</li>-->
-                    <!--<li class="b-tname">-->
-                        <!--<a class="tstyle-1" href="https://baijunyao.com/tag/37" onclick="return recordId('tid','37')">js插件 (2)</a>-->
-                    <!--</li>-->
-                    <!--<li class="b-tname">-->
-                        <!--<a class="tstyle-2" href="https://baijunyao.com/tag/38" onclick="return recordId('tid','38')">软件 (5)</a>-->
-                    <!--</li>-->
-                    <!--<li class="b-tname">-->
-                        <!--<a class="tstyle-3" href="https://baijunyao.com/tag/39" onclick="return recordId('tid','39')">php基础 (13)</a>-->
-                    <!--</li>-->
-                    <!--<li class="b-tname">-->
-                        <!--<a class="tstyle-4" href="https://baijunyao.com/tag/40" onclick="return recordId('tid','40')">echart (1)</a>-->
-                    <!--</li>-->
-                    <!--<li class="b-tname">-->
-                        <!--<a class="tstyle-1" href="https://baijunyao.com/tag/41" onclick="return recordId('tid','41')">mac (2)</a>-->
-                    <!--</li>-->
-                    <!--<li class="b-tname">-->
-                        <!--<a class="tstyle-2" href="https://baijunyao.com/tag/42" onclick="return recordId('tid','42')">laravel (21)</a>-->
-                    <!--</li>-->
-                    <!--<li class="b-tname">-->
-                        <!--<a class="tstyle-3" href="https://baijunyao.com/tag/43" onclick="return recordId('tid','43')">观影有感 (1)</a>-->
-                    <!--</li>-->
-                    <!--<li class="b-tname">-->
-                        <!--<a class="tstyle-4" href="https://baijunyao.com/tag/44" onclick="return recordId('tid','44')">vue.js (4)</a>-->
-                    <!--</li>-->
-                    <!--<li class="b-tname">-->
-                        <!--<a class="tstyle-1" href="https://baijunyao.com/tag/45" onclick="return recordId('tid','45')">node.js (6)</a>-->
-                    <!--</li>-->
-                    <!--<li class="b-tname">-->
-                        <!--<a class="tstyle-2" href="https://baijunyao.com/tag/46" onclick="return recordId('tid','46')">git (2)</a>-->
-                    <!--</li>-->
-                    <!--<li class="b-tname">-->
-                        <!--<a class="tstyle-3" href="https://baijunyao.com/tag/47" onclick="return recordId('tid','47')">composer (2)</a>-->
-                    <!--</li>-->
-                    <!--<li class="b-tname">-->
-                        <!--<a class="tstyle-4" href="https://baijunyao.com/tag/48" onclick="return recordId('tid','48')">phpstudy (1)</a>-->
-                    <!--</li>-->
-                    <!--<li class="b-tname">-->
-                        <!--<a class="tstyle-1" href="https://baijunyao.com/tag/49" onclick="return recordId('tid','49')">微信小程序 (1)</a>-->
-                    <!--</li>-->
-                    <!--<li class="b-tname">-->
-                        <!--<a class="tstyle-2" href="https://baijunyao.com/tag/50" onclick="return recordId('tid','50')">DNS (1)</a>-->
-                    <!--</li>-->
-                <!--</ul>-->
             </div>
             <div class="b-recommend">
                 <h4 class="b-title">置顶推荐</h4>
@@ -583,12 +426,6 @@
                     </p>
                 </div>
             </eq>
-            <!--<div class="b-search">-->
-                <!--<form class="form-inline"  role="form" action="https://baijunyao.com/search" method="get">-->
-                    <!--<input class="b-search-text" type="text" name="wd">-->
-                    <!--<input class="b-search-submit" type="submit" value="全站搜索">-->
-                <!--</form>-->
-            <!--</div>-->
         </div>
         <!-- 通用右部区域结束 -->
     </div>
@@ -597,7 +434,7 @@
         <footer id="b-foot" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <ul>
                 <li class="text-center">
-                    本博客使用免费开源的 <a rel="nofollow" href="https://github.com/baijunyao/laravel-bjyblog" target="_blank">laravel-bjyblog</a> v5.5.0.6 搭建 © 2014-2017 suxiongwei 版权所有                 </li>
+                    本博客依托Github搭建，仅有静态页面 © 2014-2017 suxiongwei 版权所有</li>
                 <li class="text-center">
                     联系邮箱：xwsu512@126.com
                 </li>
@@ -609,44 +446,7 @@
     </div>
 </div>
 <!-- 主体部分结束 -->
-
-<!--&lt;!&ndash; 登录模态框开始 &ndash;&gt;-->
-<!--<div class="modal fade" id="b-modal-login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">-->
-    <!--<div class="modal-dialog">-->
-        <!--<div class="modal-content row">-->
-            <!--<div class="col-xs-12 col-md-12 col-lg-12">-->
-                <!--<div class="modal-header">-->
-                    <!--<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>-->
-                    <!--<h4 class="modal-title b-ta-center" id="myModalLabel">无需注册，用以下帐号即可直接登录</h4>-->
-                <!--</div>-->
-            <!--</div>-->
-            <!--<div class="col-xs-12 col-md-12 col-lg-12 b-login-row">-->
-                <!--<ul class="row">-->
-                    <!--<li class="col-xs-6 col-md-4 col-lg-4 b-login-img">-->
-                        <!--<a href="https://baijunyao.com/auth/oauth/redirectToProvider/qq"><img src="https://baijunyao.com/images/home/qq-login.png" alt="QQ登录" title="QQ登录"></a>-->
-                    <!--</li>-->
-                    <!--<li class="col-xs-6 col-md-4 col-lg-4 b-login-img">-->
-                        <!--<a href="https://baijunyao.com/auth/oauth/redirectToProvider/weibo"><img src="https://baijunyao.com/images/home/sina-login.png" alt="微博登录" title="微博登录"></a>-->
-                    <!--</li>-->
-                    <!--<li class="col-xs-6 col-md-4 col-lg-4 b-login-img">-->
-                        <!--<a href="https://baijunyao.com/auth/oauth/redirectToProvider/github"><img src="https://baijunyao.com/images/home/github-login.jpg" alt="github登录" title="github登录"></a>-->
-                    <!--</li>-->
-                <!--</ul>-->
-            <!--</div>-->
-        <!--</div>-->
-    <!--</div>-->
-<!--</div>-->
-<!-- 登录模态框结束 -->
-
 <script src="js/jquery-2.0.0.min.js"></script>
-<script>
-    logoutUrl="{:U('Home/User/logout')}";
-    $.ajaxSetup({
-        headers: {
-            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-        }
-    });
-</script>
 <script src="bootstrap/js/bootstrap.min.js"></script>
 <!--[if lt IE 9]>
 <script src="js/html5shiv.min.js"></script>
@@ -654,33 +454,5 @@
 <![endif]-->
 <script src="js/pace.min.js"></script>
 <script src="js/index.js"></script>
-<!-- 百度页面自动提交开始 -->
-<script>
-    (function(){
-        var bp = document.createElement('script');
-        var curProtocol = window.location.protocol.split(':')[0];
-        if (curProtocol === 'https') {
-            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
-        }
-        else {
-            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
-        }
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(bp, s);
-    })();
-</script>
-<!-- 百度页面自动提交结束 -->
-
-<!-- 百度统计开始 -->
-<script>
-    var _hmt = _hmt || [];
-    (function() {
-        var hm = document.createElement("script");
-        hm.src = "//hm.baidu.com/hm.js?c3338ec467285d953aba86d9bd01cd93";
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(hm, s);
-    })();
-</script>
-<!-- 百度统计结束 -->
 </body>
 </html>
