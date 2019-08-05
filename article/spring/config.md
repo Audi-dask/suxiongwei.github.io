@@ -41,7 +41,7 @@
     spring.datasource.password=root
 ````
 
-* 配置完成(可参见项目：[config-server-git](https://github.com/suxiongwei/keda/tree/master/config-server-git))
+* 配置完成(可参见项目：[config-server](https://github.com/suxiongwei/keda/tree/master/config-server))
 
 ## 2、创建远程仓库
 * [远程仓库地址](https://github.com/suxiongwei/config-repo-demo)
